@@ -1,0 +1,29 @@
+  1 #!/usr/bin/python3
+  2 
+  3 userNumber = input("enter a number")
+  4 
+  5 userNumberToInt = int(userNumber)
+  6 
+  7 if (userNumberToInt < 50 ) and (userNumberToInt <= 100):
+  8       print("Number less than fifty")
+  9 elif userNumberToInt <= 100:
+ 10    print("My number is less than or equal to 100")
+ 11 else:
+ 12    print("Catch all for nothinf matched")
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                                                      
+~                                                     
