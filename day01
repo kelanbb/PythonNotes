@@ -1,0 +1,83 @@
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> mystring = " my string yes"
+>>> type (mystring)
+<class 'str'>
+>>> ;
+  File "<stdin>", line 1
+    ;
+    ^
+SyntaxError: invalid syntax
+>>> mystring.split()
+['my', 'string', 'yes']
+>>> mystring
+' my string yes'
+>>> myStringList
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'myStringList' is not defined
+>>> myStringList = mystring.split()
+>>> myStringList
+['my', 'string', 'yes']
+>>> myIp = 192.168.1.1
+  File "<stdin>", line 1
+    myIp = 192.168.1.1
+                   ^
+SyntaxError: invalid syntax
+>>> myIp = '192.168.1.1'
+>>> myIpList = myIp.split(".")
+>>> myIpFull = ".".join(myIpList)
+>>> myIpFull
+'192.168.1.1'
+>>> input ("Gimmie username")
+Gimmie usernamejoe
+'joe'
+>>> myUsername = input ("Gimmie username: ")
+Gimmie username: barry
+>>> myUsername
+'barry'
+>>> myStringList[1]
+'string'
+>>> 1 in myIp
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'in <string>' requires string as left operand, not int
+>>> myList
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'myList' is not defined
+>>> myList = 1,2,3,4,5
+>>> myList
+(1, 2, 3, 4, 5)
+>>> 1 in myList
+True
+>>> 6 in myList
+False
+>>> 
+KeyboardInterrupt
+>>> type(int(input("please enter a number: ")))
+please enter a number: 256
+<class 'int'>
+>>> a = 55
+>>> type a
+  File "<stdin>", line 1
+    type a
+         ^
+SyntaxError: invalid syntax
+>>> 
+>>> type(a)
+<class 'int'>
+>>> a = '56"
+  File "<stdin>", line 1
+    a = '56"
+           ^
+SyntaxError: EOL while scanning string literal
+>>> a = '56'
+>>> type(a)
+<class 'str'>
+>>> int(a)
+56
+>>> type(int(a))
+<class 'int'>
+>>> 
