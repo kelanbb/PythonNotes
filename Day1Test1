@@ -1,0 +1,6 @@
+  1 #!/usr/bin/python3
+  2 
+  3 user_input = input("What is username: ")
+  4 
+  5 print ("Hey {}, yes hello there you.".format(user_input))
+  6 
