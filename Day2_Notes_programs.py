@@ -37,3 +37,21 @@ mytuple = ("a","b","C","D")
 
 for num in mytuple:
    print("current uple: " +num)
+
+    
+# FILE STUFF-----------------------------------------
+  1 #!/usr/bin/python3
+  2 
+  3 with open('withOpenTest.txt', 'w')as myfile:
+  4    myfile.write(" my first line of text gabagoo ye") #writes a line, ov    errtes
+  5 mylist = ["one big mama\n", "two joe mamas\n", "three yo mamas\n"]
+  6 with open('withOpenTest.txt', 'w')as myfile1:
+  7    myfile1.write(mylist)
+  8 
+  9         # writelines writes a list of strings to file
+ 10 
+ 11 #next, READ from a file
+ 12 with open('withOpenTest.txt', 'r')as myfile2:
+ 13    content = myfile2.readline #or just .read(10)-- reads first 10 bytes     of file (or .readlines?) to not read one line
+ 14    print(content)
+~                           
