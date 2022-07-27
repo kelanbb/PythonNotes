@@ -1,0 +1,162 @@
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> colums = [][]
+  File "<stdin>", line 1
+    colums = [][]
+                ^
+SyntaxError: invalid syntax
+>>> colums = [[]]
+>>> colums[0] = 1
+>>> co
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'co' is not defined
+>>> colums
+[1]
+>>> row = [1,2,3,4]
+>>> row
+[1, 2, 3, 4]
+>>> colums[1] = row
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
+>>> colums[1].append(row)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> colums.append(row)
+>>> colums
+[1, [1, 2, 3, 4]]
+>>> clear
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'clear' is not defined
+>>> 
+>>> 
+>>> 
+>>> #ordinal value is dec representation of ASCII char
+... 
+>>> ord("A")
+65
+>>> #get binary value of decimal number with 'bin'
+... 
+>>> bin(8)
+'0b1000'
+>>> bin(ord("A"))
+'0b1000001'
+>>> #since 'bin' insirts 'b' char in output, 'formar' it
+... 
+>>> format("8", '0>8b')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: Unknown format code 'b' for object of type 'str'
+>>> format(8, '0>8b')
+'00001000'
+>>> int('00001000',2)
+8
+>>> #gives binry to dec
+... #chr give char representation of decimal char, OPPOSITE of ord
+... ord("A")
+65
+>>> chr(65)
+'A'
+>>> c = 0
+>>> c++
+  File "<stdin>", line 1
+    c++
+      ^
+SyntaxError: invalid syntax
+>>> c+=1
+>>> bin = 100
+>>> bin[-1] = 1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object does not support item assignment
+>>> bin = wow
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'wow' is not defined
+>>> bin = "wow"
+>>> bin[-1] = "0"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> #GOOD WAY TO TURN DECIMAL NUMBER INTO BINARY NUMBER LISTVvvvvvvvvvv
+... list(format(int(cover[i]), '0>8b'))
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'cover' is not defined
+>>> coverBinList[-1] = charbin[i]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'charbin' is not defined
+>>> cover[i] = str(int("".join(coverBinList), 2)
+... 
+... 
+... )
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'coverBinList' is not defined
+>>> i = 1^2
+>>> i
+3
+>>> reversed(123)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not reversible
+>>> reversed('123')
+<reversed object at 0x7ffff6809128>
+>>> for x in range(2, 6):
+...   print(x)
+... 
+2
+3
+4
+5
+>>> for x in range(2, 6):
+...   print(x)
+... 
+2
+3
+4
+5
+>>> for x in range(2,6,2):
+... print(x)
+  File "<stdin>", line 2
+    print(x)
+        ^
+IndentationError: expected an indented block
+>>> 
+>>> for x in range(2,6,2):
+...     print(x)
+... 
+2
+4
+>>> for x in range (2, 3*2, 2):
+...     print(x)
+... 
+2
+4
+>>> for i in 10
+  File "<stdin>", line 1
+    for i in 10
+              ^
+SyntaxError: invalid syntax
+>>> x = 1705
+>>> x/1000
+1.705
+>>> int(x)/1000
+1.705
+>>> int(x)/100
+17.05
+>>> x = int(1705)
+>>> int(x)/100
+17.05
+>>> x = int(1901)
+>>> int(x/100) + 1
+20
+>>> x = int(1900)
+>>> int(x/100) + 1
+20
+>>> 
