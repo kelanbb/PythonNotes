@@ -1,0 +1,264 @@
+>>> n = "hi how are you"
+>>> splitBackwards = n.split(" ")[-1:]
+>>> splitBackwards
+['you']
+>>> splitBackwards = n.split(" ")[-1:0]
+>>> splitBackwards
+[]
+>>> splitBackwards = n.split(" ")[-1:0]
+>>> 
+>>> x = 65543
+>>> nS = n.split()
+>>> ns
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ns' is not defined
+>>> nS
+['hi', 'how', 'are', 'you']
+>>> nS = x.split()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'split'
+>>> nS = x.split("")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'split'
+>>> nS = list(x.split(""))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'split'
+>>> nS = list(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not iterable
+>>> nS = list(str(x))
+>>> nS
+['6', '5', '5', '4', '3']
+>>> w = range (5,0,-1)
+>>> w
+range(5, 0, -1)
+>>> w = range(5,0,-1)
+>>> w
+range(5, 0, -1)
+>>> for i in range(5,1,-1):
+... print(i)
+  File "<stdin>", line 2
+    print(i)
+        ^
+IndentationError: expected an indented block
+>>> 
+>>> for i in range(5,1,-1):
+...     print(i)
+... 
+5
+4
+3
+2
+>>> for i in range(5,1,-1):
+...     print(i)
+...     if i % 2 == 0
+  File "<stdin>", line 3
+    if i % 2 == 0
+                ^
+SyntaxError: invalid syntax
+>>> for i in range(5,1,-1):
+...     print(i)
+...     if i % 2 == 0:
+...             print "even"
+  File "<stdin>", line 4
+    print "even"
+               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("even")?
+>>>             print ("even")
+  File "<stdin>", line 1
+    print ("even")
+    ^
+IndentationError: unexpected indent
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> n
+'hi how are you'
+>>> n = 65532
+>>> for i in range((len(n),0,-1):
+  File "<stdin>", line 1
+    for i in range((len(n),0,-1):
+                                ^
+SyntaxError: invalid syntax
+>>> x 
+65543
+>>> x = {:,}.format(x))
+  File "<stdin>", line 1
+    x = {:,}.format(x))
+         ^
+SyntaxError: invalid syntax
+>>> x = "{:,}".format(x))
+  File "<stdin>", line 1
+    x = "{:,}".format(x))
+                        ^
+SyntaxError: invalid syntax
+>>> x = "{:,}".format(x)
+>>> 
+>>> x
+'65,543'
+>>> a  = [1,2,3,4]
+>>> b = [2,4,6,7]
+>>> a  = [1,3,5,8]
+>>> c = a+b
+>>> d = sort.(c)
+  File "<stdin>", line 1
+    d = sort.(c)
+             ^
+SyntaxError: invalid syntax
+>>> d=c.dsort()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'dsort'
+>>> d=c.sort()
+>>> d
+>>> d=c.sorted()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'sorted'
+>>> d=sorted(c)
+>>> d
+[1, 2, 3, 4, 5, 6, 7, 8]
+>>> e=d.reverse()
+>>> e
+>>> e
+>>> d
+[8, 7, 6, 5, 4, 3, 2, 1]
+>>> d=sorted(c)
+>>> d
+[1, 2, 3, 4, 5, 6, 7, 8]
+>>> d.reverse()
+>>> d
+[8, 7, 6, 5, 4, 3, 2, 1]
+>>> s1=1
+>>> s2=2
+>>> s3=3
+>>> sum(s1,s2,s3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: sum expected at most 2 arguments, got 3
+>>> sum(sum(s1,s2),s3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not iterable
+>>> ss = sum(s1,s2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not iterable
+>>> sdd()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sdd' is not defined
+>>> add()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'add' is not defined
+>>> limit = 30
+>>> integer = 3
+>>> q5list = list(range(0,limit+1,integer)
+... q5list
+  File "<stdin>", line 2
+    q5list
+         ^
+SyntaxError: invalid syntax
+>>> wow = list(range(0,limit+1,integer)
+... 
+... 
+... )
+>>> wow = list(range(0,limit+1,integer))
+>>> wow
+[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+>>> for i in 10:
+... print(i)
+  File "<stdin>", line 2
+    print(i)
+        ^
+IndentationError: expected an indented block
+>>> 
+>>> for i in 10:
+...     print(i)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not iterable
+>>> diff = 1
+>>> di = 5
+>>> do = 8
+>>> dp = abs(di-do)
+>>> dp
+3
+>>> dp = abs(do-di)
+>>> dp
+3
+>>> dif = dif + dp
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'dif' is not defined
+>>> dif = diff + dp
+>>> dif
+4
+>>> listEx
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'listEx' is not defined
+>>> listEx = [1,2,3,4]
+>>> for i in range(len(listEx)):
+... 
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block
+>>> for i in range(len(listEx)):
+... 
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block
+>>> for i in range(len(listEx)):
+...     print(i)
+... 
+0
+1
+2
+3
+>>> for i in range(len(listEx)):
+...     print(i) if i < 10
+  File "<stdin>", line 2
+    print(i) if i < 10
+                     ^
+SyntaxError: invalid syntax
+>>> for i in range(len(listEx)):
+...     if i < 10:
+...             print(i)
+... 
+0
+1
+2
+3
+>>> baba = len(listEx)
+>>> baba
+4
+>>> chr(10)
+'\n'
+>>> str(10)
+'10'
+>>> a = 10
+>>> b = "wow"
+>>> c = "wow10"
+>>> a.isnumeric()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'isnumeric'
+>>> a.isalnum()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'isalnum'
+>>> 'hello9world7'.isalnum()
+True
+>>> 
